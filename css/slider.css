@@ -1,0 +1,156 @@
+div.wrap {
+	width : 705px;
+	text-align : left;
+	margin-bottom: 20px;
+}
+
+div#top div#nav {
+	float : left;
+	clear : both;
+	width : 705px;
+	height : 52px;
+	margin : 22px 0 0;
+}
+
+div#top div#nav ul {
+	float : left;
+	width : 705px;
+	height : 52px;
+	list-style-type : none;
+}
+
+div#nav ul li {
+	float : left;
+	height : 52px;
+}
+
+div#nav ul li a {
+	border : 0;
+	height : 52px;
+	display : block;
+	line-height : 52px;
+	text-indent : -9999px;
+}
+
+div.slider-box {
+	margin : -1px 0 0;
+}
+
+div#video-header {
+	height : 705px;
+	margin : -1px 0 0;
+}
+
+div.slider-box div.wrap {
+	height : 266px;
+}
+
+div.slider-box div#slide-holder {
+	z-index : 40;
+	width : 705px;
+	height : 266px;
+	position : absolute;
+}
+
+div.slider-box div#slide-holder div#slide-runner {
+	width : 705px;
+	height : 266px;
+	overflow : hidden;
+	position : absolute;
+	border-radius: 10px;
+}
+
+div.slider-box div#slide-holder img {
+	margin : 0;
+	display : none;
+	position : absolute;
+	border-radius: 10px;
+}
+
+div.slider-box div#slide-holder div#slide-controls {
+	right: 0;
+	max-width : 236px;
+	display : none;
+	position : absolute;
+	height: 100%;
+  	background-color: rgba( 37, 29, 20, 0.9 );
+}
+
+div.slider-box div#slide-holder div#slide-controls p.text {
+	float : left;
+	color : #fff;
+	display : inline;
+	font-size : 10px;
+	line-height : 16px;
+	margin : 15px 0 0 20px;
+	text-transform : uppercase;
+}
+
+div.slider-box div#slide-holder div#slide-controls #slide-nav {
+	padding: 0;
+	height: 27px;
+	overflow: hidden;
+}
+
+div.slider-box div#slide-holder div#slide-controls #slide-nav a {
+	color: #fff;
+	float : left;
+	width : 27px;
+	height : 26px;
+	display : inline;
+	font-size : 11px;
+	margin : 0 5px 0 0;
+	line-height : 24px;
+	font-weight : bold;
+	text-align : center;
+	text-decoration : none;
+	background-position : 0 0;
+	background-repeat : no-repeat;
+}
+
+div.slider-box div#slide-holder div#slide-controls #slide-nav a.on {
+	background-position : 0 0px;
+
+}
+
+div.slider-box div#slide-holder div#slide-controls #slide-nav a {
+	background-position : 0 -33px;
+	background-image : url(../images/switcher.png);
+}
+
+#slide-controls{
+	padding: 20px 19px;
+}
+
+#slide-controls>h4{
+	color: #fff;
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0 0 3px;
+	font-family: 'zurich_cn_btregular';
+	font-weight: normal;
+}
+
+#slide-controls>h3{
+	color: #28b028;
+	font-size: 32px;
+	line-height: 34px;
+	margin: 0 0 12px;
+    letter-spacing: 0.8px;
+	font-weight: normal;
+}
+
+#slide-controls>p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 18px;
+}
+
+#slide-controls>p>a{
+	text-decoration: none;
+	color: #28b028;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.8px;
+}
